@@ -1,0 +1,21 @@
+.container {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 4em;
+    background-image: url('../../public/background-new.png');
+    background-size: cover;
+
+    .shelves {
+        padding-top: 45em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+
+        .shelf {
+            max-width: 20%;
+            height: auto;
+        }
+    }
+}
