@@ -4,9 +4,36 @@
     padding-bottom: 4em;
     background-image: url('../../public/background-new.png');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    // .hanger {
+    //     max-width: 100%;
+    //     height: auto;
+    //     // position: relative;
+    // }
+
+    .clothes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 12.5em;
+
+        .sweaters {
+            max-width: 7.2%;
+            .sweater {
+                max-width: 8vw;
+                height: auto;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 
     .shelves {
-        padding-top: 45em;
+        padding-top: 20em;
         justify-content: center;
         align-items: center;
         display: flex;
